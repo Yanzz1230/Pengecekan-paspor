@@ -223,7 +223,7 @@
     const hasil = document.getElementById('hasilCek');
     hasil.innerHTML = `<p style="color: #555;">Mengecek...</p>`;
 
-    fetch("https://script.google.com/macros/s/AKfycbzErtwkTJSKL0yWGgx4FMB8w9b10p9IJZbBgYBL6b2X-jaPkWihY1NtX7ZU0VYYphi_kQ/exec?nomorPaspor=" + encodeURIComponent(nomor))
+    fetch("https://script.google.com/macros/s/AKfycbwWMDrV-yGOS7GRyl9hvjg2X0hEN02Wo1Twl5xZoWgYyAEGIH6XPzkXyiHqQ7-wfojs/exec?nomorPaspor=" + encodeURIComponent(nomor))
       .then(response => response.json())
       .then(data => {
         hasil.innerHTML = `
